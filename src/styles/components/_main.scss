@@ -1,0 +1,96 @@
+.main{
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+    .main-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .user-info{
+            overflow-y: hidden;
+            background-color: black;
+            height: 55px;
+            border: 2px solid rgb(71, 205, 223);
+            border-radius: 0 0 10px 10px;
+            padding: 10px;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            justify-content: space-between;
+
+            img{
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                border: 2px solid rgb(71, 205, 223);
+                margin: 5px;
+            }
+            h2{
+                font-size: 14px;
+                font-weight: 200;  
+            }
+            .logout{
+                cursor: pointer;
+                text-align: center;
+                width: 80px;
+                height: 30px;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(248, 27, 27);
+                border: none;
+                color: rgb(250, 249, 249);
+                font-family: 'Poppins';
+                border-radius: 5px;
+                margin: 10px;
+            }
+
+        }
+
+        .app-content{
+            margin: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .main{
+        min-width: 900px;
+    }
+}
+@media screen and (max-width:450px) {
+    .main{
+        min-width: 300px;
+
+        
+        .main-content{
+            display: block;
+
+            .user-info{
+                width: 100%;
+                display: flex;
+
+                img{
+                    width: 28px;
+                    height: 28px;
+
+                }
+                h2{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

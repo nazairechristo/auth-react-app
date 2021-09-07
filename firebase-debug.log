@@ -1,0 +1,39 @@
+[debug] [2021-09-07T17:04:00.847Z] ----------------------------------------------------------------------
+[debug] [2021-09-07T17:04:00.856Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\NJC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-07T17:04:00.858Z] CLI Version:   9.17.0
+[debug] [2021-09-07T17:04:00.858Z] Platform:      win32
+[debug] [2021-09-07T17:04:00.858Z] Node Version:  v14.17.0
+[debug] [2021-09-07T17:04:00.861Z] Time:          Tue Sep 07 2021 13:04:00 GMT-0400 (Eastern Daylight Time)
+[debug] [2021-09-07T17:04:00.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-07T17:04:00.895Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-07T17:04:00.896Z] > authorizing via signed-in user (nazairejeanchristo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\NJC\Desktop\authentification-firebase-react
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-07T17:04:13.878Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-09-07T17:04:14.739Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-09-07T17:04:14.740Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project my-react-auth-app (my-react-auth-app) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

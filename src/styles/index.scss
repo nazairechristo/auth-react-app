@@ -1,0 +1,26 @@
+@import './components/login';
+@import './components/main';
+@import './components/create';
+@import './components/read';
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

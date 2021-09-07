@@ -1,0 +1,85 @@
+.box-quotes{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1300px;
+
+        li{
+            margin: 12px;
+            list-style: none;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Allison', cursive;
+            font-size: 31px;
+            width: 350px;
+            height: 250px;
+            text-align: center;
+            border: 3px solid rgb(23, 157, 161);
+            background-color: black;
+            border-radius: 10px;
+            color: white;
+            p{
+                width: 100%;
+                padding: 10px;
+                
+                font-weight: 100;
+                span{
+                    font-style: normal;
+                    color: rgb(204, 173, 108);
+                    
+                }
+            }
+
+            .buttons-container{
+                button{
+                    margin: 5px;
+                    border: none;
+                    font-family: 'Poppins';
+                    width: 60px;
+                    height: 30px;
+                }
+            }
+
+            .update-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                textarea{
+                    border-radius: 10px;
+                    background-color: black;
+                    color: white;
+                    width: 330px;
+                    height: 80px;
+                    border: none;
+                }
+                input{
+                    border: none;
+                    padding: 4px;
+                    border-radius: 6px;
+                    background-color: black;
+                    color: white;
+                    margin: 5px;
+                    width: 120px;
+                    height: 30px;
+                }
+                button{
+                    border: none;
+                    font-family: 'Poppins';
+                    width: 60px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
